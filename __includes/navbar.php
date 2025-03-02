@@ -10,5 +10,16 @@
                 </div>
             </div>
         </div>
+        <div class="nav-links">
+            <a class="inter-extralight" id="Home" href="">HOME</a>
+            <a class="inter-extralight" id="About" href="">ABOUT US <img src="../imgs/Expand Arrow.png" alt=""></a>
+            <a class="inter-extralight" id="Admissions" href="">ADMISSIONS <img src="../imgs/Expand Arrow.png" alt=""></a>
+            <a class="inter-extralight" id="Academic" href="">ACADEMIC <img src="../imgs/Expand Arrow.png" alt=""></a>
+            <a class="inter-extralight" id="Research" href="">RESEARCH <img src="../imgs/Expand Arrow.png" alt=""></a>
+            <a class="inter-extralight" id="Other Links" href="">OTHER LINKS <img src="../imgs/Expand Arrow.png" alt=""></a>
+            <div class="MyWmsu-btn">
+                <a class="MyWmsu-link inter-regular" href="">MyWMSU</a>
+            </div>
+        </div>
     </section>
 </nav>

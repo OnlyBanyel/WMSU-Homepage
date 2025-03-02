@@ -8,6 +8,8 @@ body{
 }
 
 .nav-cont{
+    display: flex;
+    justify-content: space-between;
     background-color: white;
     width: 100vw;
     height: 100px;
@@ -47,9 +49,69 @@ body{
 
 .nav-logo-title{
     font-size: 20px;
+    margin-top: -5px;
 }
 
 .nav-logo-subtitle{
     font-size: 12px;
     margin-top: -5px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    margin-left: 125px;
+    margin-right: 35px;
+}
+
+.nav-links>a{
+    text-decoration: none;
+    color: crimson;
+    font-size: 12px;
+    margin-right: 25px;
+}
+
+.nav-links>a img{
+    margin-top: -3px;
+}
+
+.nav-links>a:hover{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration: underline;
+    transition: ease-in-out .2s;
+}
+.nav-links>a:not(:hover){
+    transition: ease-out .2s;
+}
+
+.nav-links>a:hover img{
+    transform: scaleY(-1);
+    transition: ease-in-out .2s;
+}
+
+.nav-links>a:not(:hover) img{
+    transition: ease-out .2s;
+}
+
+.MyWmsu-link{
+    text-decoration: none;
+    color: white;
+    border: 1px solid crimson;
+    border-radius: 30px 0 30px 0;
+    background-color: crimson;
+    font-size: 13px;
+    padding: 12px 25px;
+}
+
+.MyWmsu-link:hover{
+    background-color: white;
+    color: crimson;
+    transition: ease-in-out .2s;
+}
+
+.MyWmsu-link:not(:hover){
+    transition: ease-out .2s;
 }
