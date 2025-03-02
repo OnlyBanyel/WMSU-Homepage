@@ -12,11 +12,18 @@
         </div>
         <div class="nav-links">
             <a class="inter-extralight" id="Home" href="">HOME</a>
+            <div id="Home-dropdown" class="nav-dropdown">
+                <h6 class="dropdown-title">HOME</h6>
+            </div>
             <a class="inter-extralight" id="About" href="">ABOUT US <img src="../imgs/Expand Arrow.png" alt=""></a>
+            <div id="About-dropdown" class="nav-dropdown">
+                <h6 class="dropdown-title">ABOUT</h6>
+            </div>
             <a class="inter-extralight" id="Admissions" href="">ADMISSIONS <img src="../imgs/Expand Arrow.png" alt=""></a>
             <a class="inter-extralight" id="Academic" href="">ACADEMIC <img src="../imgs/Expand Arrow.png" alt=""></a>
             <a class="inter-extralight" id="Research" href="">RESEARCH <img src="../imgs/Expand Arrow.png" alt=""></a>
             <a class="inter-extralight" id="Other Links" href="">OTHER LINKS <img src="../imgs/Expand Arrow.png" alt=""></a>
+            <div class="nav-dropdown"><h6 class="dropdown-title">CORE VALUES</h6></div>
             <div class="MyWmsu-btn">
                 <a class="MyWmsu-link inter-regular" href="">MyWMSU</a>
             </div>

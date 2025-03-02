@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: red;
 }
 
 .nav-cont{
@@ -25,6 +25,7 @@ body{
     margin-left: 35px;
     height: 135px;
     width: 135px;
+    z-index: 1;
 }
 
 .logo-text{
@@ -69,6 +70,7 @@ body{
     color: crimson;
     font-size: 12px;
     margin-right: 25px;
+    padding: 15px 0;
 }
 
 .nav-links>a img{
@@ -114,4 +116,47 @@ body{
 
 .MyWmsu-link:not(:hover){
     transition: ease-out .2s;
+}
+
+.nav-dropdown{
+    position: absolute;
+    top: 100px; /* Aligns below navbar */
+    left: 0;
+    background-color: white;
+    width: 100vw;
+    height: 500px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, transform 0.4s ease-in-out, visibility .1s linear .1s;
+    transform: translateY(-35px);
+}
+
+.nav-dropdown::before {
+    content: "";
+    position: absolute;
+    top: -10px; /* Extends hover area just above the dropdown */
+    left: 0;
+    width: 100%; /* Matches the dropdown width instead of full screen */
+    height: 10px; /* Invisible hover buffer */
+    background: transparent;
+    pointer-events: auto; /* Ensures it remains interactive */
+}
+
+.nav-links>#Home:hover ~ #Home-dropdown,
+#Home-dropdown:hover {
+    visibility: visible;
+    opacity: .85;
+    transform: translateY(0);
+    transition: opacity 0.3s ease-in-out, visibility 0s;
+}
+
+.nav-links>#About:hover ~ #About-dropdown,
+#About-dropdown:hover {
+    visibility: visible;
+    opacity: .85;
+    transform: translateY(0);
+}
+
+.dropdown-title{
+    color: crimson;
 }
