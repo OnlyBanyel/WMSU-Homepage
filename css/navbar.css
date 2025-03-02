@@ -1,6 +1,55 @@
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
     background-color: black;
 }
 
+.nav-cont{
+    background-color: white;
+    width: 100vw;
+    height: 100px;
+}
+
+.WMSU-Logo-cont{
+    display: flex;
+    height: 100px;
+}
+
+.WMSU-Logo{
+    margin-top: 10px;
+    margin-left: 35px;
+    height: 135px;
+    width: 135px;
+}
+
+.logo-text{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    padding-top: 5px;
+}
+
+.nav-logo-line{
+    height: 55px;
+    width: 1px;
+    border: 1px solid crimson;
+}
+
+.nav-title-cont{
+    display: flex;
+    flex-direction: column;
+    color: crimson;
+    margin-left: 10px;
+}
+
+.nav-logo-title{
+    font-size: 20px;
+}
+
+.nav-logo-subtitle{
+    font-size: 12px;
+    margin-top: -5px;
+}
