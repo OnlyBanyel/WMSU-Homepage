@@ -157,6 +157,34 @@ body{
     transform: translateY(0);
 }
 
+.nav-links>#Admissions:hover ~ #Admissions-dropdown,
+#Admissions-dropdown:hover {
+    visibility: visible;
+    opacity: .85;
+    transform: translateY(0);
+}
+
+.nav-links>#Academic:hover ~ #Academic-dropdown,
+#Academic-dropdown:hover {
+    visibility: visible;
+    opacity: .85;
+    transform: translateY(0);
+}
+
+.nav-links>#Research:hover ~ #Research-dropdown,
+#Research-dropdown:hover {
+    visibility: visible;
+    opacity: .85;
+    transform: translateY(0);
+}
+
+.nav-links>#Other-Links:hover ~ #Other-dropdown,
+#Other-dropdown:hover {
+    visibility: visible;
+    opacity: .85;
+    transform: translateY(0);
+}
+
 .dropdown-title{
     color: crimson;
 }
