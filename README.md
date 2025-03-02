@@ -1,2 +1,2 @@
 - # WMSU-Homepage
-    - GROUP 2 - ACT Internship
+    - GROUP 2 - ACT INTERNSHIP
