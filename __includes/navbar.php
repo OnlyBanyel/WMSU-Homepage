@@ -13,7 +13,27 @@
         <div class="nav-links">
             <a class="inter-extralight" id="Home" href="">HOME</a>
             <div id="Home-dropdown" class="nav-dropdown">
-                <h6 class="dropdown-title">HOME</h6>
+                <div class="dropdown-title">
+                    <div class="dropdown-content">
+                        <h6 class="inter-bold">CORE VALUES</h6>
+                        <p class="inter-light">Mission</p>
+                        <p class="inter-light">Vision</p>
+                        <p class="inter-light">Quality Policy</p>
+                        <p class="inter-light">University Function</p>
+                    </div>
+                    <div class="dropdown-content">
+                        <h6 class="inter-bold">INSTITUTIONAL IDENTITY</h6>
+                        <p class="inter-light">Strategic Plan</p>
+                        <p class="inter-light">Transparency Seal</p>
+                    </div>
+                    <div class="dropdown-content">
+                        <h6 class="inter-bold">FOUNDATION</h6>
+                        <p class="inter-light">History of WMSU</p>
+                        <p class="inter-light">News Archive</p>
+                        <p class="inter-light">Bids & Awards</p>
+                        <p class="inter-light">Gallery</p>
+                    </div>
+                </div>
             </div>
             <a class="inter-extralight" id="About" href="">ABOUT US <img src="../imgs/Expand Arrow.png" alt=""></a>
             <div id="About-dropdown" class="nav-dropdown">
