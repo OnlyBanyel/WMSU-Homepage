@@ -4,7 +4,7 @@
 }
 
 body{
-    background-color: red;
+    background-color: black;
 }
 
 .nav-cont{
@@ -124,11 +124,13 @@ body{
     left: 0;
     background-color: white;
     width: 100vw;
-    height: 500px;
-    opacity: .85;
+    height: 400px;
+    opacity: .70;
     visibility: hidden;
     transition: opacity 0.3s ease-in-out, transform 0.4s ease-in-out, visibility .1s linear .1s;
     transform: translateY(-15px);
+    display: flex;
+    justify-content: center;
 }
 
 .nav-dropdown::before {
@@ -142,47 +144,43 @@ body{
     pointer-events: auto; /* Ensures it remains interactive */
 }
 
-.nav-links>#Home:hover ~ #Home-dropdown,
-#Home-dropdown:hover {
-    visibility: visible;
-    opacity: .85;
-    transform: translateY(0);
-    transition: opacity 0.3s ease-in-out, visibility 0s;
-}
-
 .nav-links>#About:hover ~ #About-dropdown,
 #About-dropdown:hover {
     visibility: visible;
-    opacity: .85;
+    opacity: .75;
     transform: translateY(0);
 }
 
 .nav-links>#Admissions:hover ~ #Admissions-dropdown,
 #Admissions-dropdown:hover {
     visibility: visible;
-    opacity: .85;
+    opacity: .75;
     transform: translateY(0);
 }
 
 .nav-links>#Academic:hover ~ #Academic-dropdown,
 #Academic-dropdown:hover {
     visibility: visible;
-    opacity: .85;
+    opacity: .75;
     transform: translateY(0);
 }
 
 .nav-links>#Research:hover ~ #Research-dropdown,
 #Research-dropdown:hover {
     visibility: visible;
-    opacity: .85;
+    opacity: .75;
     transform: translateY(0);
 }
 
 .nav-links>#Other-Links:hover ~ #Other-dropdown,
 #Other-dropdown:hover {
     visibility: visible;
-    opacity: .85;
+    opacity: .75;
     transform: translateY(0);
+}
+
+.dropdown-cont{
+    margin-top: 15px;
 }
 
 .dropdown-title{
@@ -190,24 +188,32 @@ body{
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
     align-content: center;
 }
 
 .dropdown-content{
-    margin: 0 -100px;
+    margin: 0 100px;
 }
 
 .dropdown-content h6{
     color: #7C0A02;
     font-size: 17px;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .dropdown-content p{
     color: crimson;
     font-size: 12px;
     margin-top: -10px;
+}
+
+.nav-divider{
+    width: .5px;
+    height: 300px;
+    background-color: black;
+    margin: -80px -20px;
 }

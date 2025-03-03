@@ -12,40 +12,72 @@
         </div>
         <div class="nav-links">
             <a class="inter-extralight" id="Home" href="">HOME</a>
-            <div id="Home-dropdown" class="nav-dropdown">
-                <div class="dropdown-title">
-                    <div class="dropdown-content">
-                        <h6 class="inter-bold">CORE VALUES</h6>
-                        <p class="inter-light">Mission</p>
-                        <p class="inter-light">Vision</p>
-                        <p class="inter-light">Quality Policy</p>
-                        <p class="inter-light">University Function</p>
-                    </div>
-                    <div class="dropdown-content">
-                        <h6 class="inter-bold">INSTITUTIONAL IDENTITY</h6>
-                        <p class="inter-light">Strategic Plan</p>
-                        <p class="inter-light">Transparency Seal</p>
-                    </div>
-                    <div class="dropdown-content">
-                        <h6 class="inter-bold">FOUNDATION</h6>
-                        <p class="inter-light">History of WMSU</p>
-                        <p class="inter-light">News Archive</p>
-                        <p class="inter-light">Bids & Awards</p>
-                        <p class="inter-light">Gallery</p>
+            <a class="inter-extralight" id="About" href="">ABOUT US <img src="../imgs/Expand Arrow.png" alt=""></a>
+            <div id="About-dropdown" class="nav-dropdown">
+                <div class="dropdown-cont">
+                    <div class="dropdown-title">
+                        <div class="dropdown-content">
+                            <h6 class="inter-bold">CORE VALUES</h6>
+                            <p class="inter-light">Mission</p>
+                            <p class="inter-light">Vision</p>
+                            <p class="inter-light">Quality Policy</p>
+                            <p class="inter-light">University Function</p>
+                        </div>
+                        <div class="nav-divider"></div>
+                        <div class="dropdown-content">
+                            <h6 class="inter-bold">INSTITUTIONAL IDENTITY</h6>
+                            <p class="inter-light">Strategic Plan</p>
+                            <p class="inter-light">Transparency Seal</p>
+                        </div>
+                        <div class="nav-divider"></div>
+                        <div class="dropdown-content">
+                            <h6 class="inter-bold">FOUNDATION</h6>
+                            <p class="inter-light">History of WMSU</p>
+                            <p class="inter-light">News Archive</p>
+                            <p class="inter-light">Bids & Awards</p>
+                            <p class="inter-light">Gallery</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <a class="inter-extralight" id="About" href="">ABOUT US <img src="../imgs/Expand Arrow.png" alt=""></a>
-            <div id="About-dropdown" class="nav-dropdown">
-                <h6 class="dropdown-title">ABOUT</h6>
-            </div>
             <a class="inter-extralight" id="Admissions" href="">ADMISSIONS <img src="../imgs/Expand Arrow.png" alt=""></a>
             <div id="Admissions-dropdown" class="nav-dropdown">
-                <h6 class="dropdown-title">ADMISSIONS</h6>
+                <div class="dropdown-cont">
+                    <div class="dropdown-title">
+                        <div class="dropdown-content">
+                            <h6 class="inter-bold">ADMISSION GUIDE</h6>
+                            <p class="inter-light">New Students</p>
+                            <p class="inter-light">Old Students</p>
+                            <p class="inter-light">Enrollment Procedure</p>
+                        </div>
+                        <div class="nav-divider"></div>
+                        <div class="dropdown-content">
+                            <h6 class="inter-bold">SCHEDULE OF FEES</h6>
+                            <p class="inter-light">Undergraduate / Non-Corporate Programs</p>
+                            <p class="inter-light">Graduate / Corporate Programs</p>
+                            <p class="inter-light">College of Law</p>
+                            <p class="inter-light">College of Medicine</p>
+                            <p class="inter-light">Masters Degree</p>
+                            <p class="inter-light">Doctorate Degree</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <a class="inter-extralight" id="Academic" href="">ACADEMIC <img src="../imgs/Expand Arrow.png" alt=""></a>
             <div id="Academic-dropdown" class="nav-dropdown">
-                <h6 class="dropdown-title">ACADEMIC</h6>
+            <div class="dropdown-cont">
+                    <div class="dropdown-title">
+                        <div class="dropdown-content">
+                            <h6 class="inter-bold">College of Architecture</h6>
+                            <h6 class="inter-bold">College of Agriculture</h6>
+                            <h6 class="inter-bold">College of Asian & Islamic Studies</h6>
+                        </div>
+                        <div class="nav-divider"></div>
+                        <div class="dropdown-content">
+                            <h6 class="inter-bold">SCHEDULE OF FEES</h6>
+                        </div>
+                    </div>
+                </div>
             </div>
             <a class="inter-extralight" id="Research" href="">RESEARCH <img src="../imgs/Expand Arrow.png" alt=""></a>
             <div id="Research-dropdown" class="nav-dropdown">
