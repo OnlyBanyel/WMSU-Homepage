@@ -1,0 +1,1 @@
+<img class="hero-img" src="../imgs/Hero-img.png" alt="">
