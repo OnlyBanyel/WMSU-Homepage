@@ -1,1 +1,3 @@
-<img class="hero-img" src="../imgs/Hero-img.png" alt="">
+<section class="hero-section">
+    <img src="../imgs/Hero-img.png" alt="" class="hero-img img-fluid">
+</section>

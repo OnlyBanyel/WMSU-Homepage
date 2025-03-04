@@ -4,5 +4,7 @@
 
 <body>
     <?php require_once '../__includes/navbar.php'; ?>
-    <?php require_once '../page-views/homepage-views.php'; ?>
+    <div class="homepage-body">
+        <?php require_once '../page-views/homepage-views.php'; ?>
+    </div>
 </body>

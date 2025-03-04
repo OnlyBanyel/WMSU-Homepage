@@ -4,27 +4,30 @@
 }
 
 body{
-    background-color: black;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Stops side scrolling */
 }
 
 .nav-cont{
     display: flex;
+    justify-content: space-between;
     background-color: white;
-    width: 100vw;
+    width: 100%;
     height: 100px;
 }
 
 .WMSU-Logo-cont{
     display: flex;
     height: 100px;
+    margin-left: 35px;
 }
 
 .WMSU-Logo{
     margin-top: 10px;
-    margin-left: 35px;
     height: 135px;
     width: 135px;
-    z-index: 1;
+    z-index: 5;
 }
 
 .logo-text{
@@ -122,7 +125,7 @@ body{
     top: 100px; /* Aligns below navbar */
     left: 0;
     background-color: white;
-    width: 100vw;
+    width: 100%;
     height: 400px;
     opacity: .70;
     visibility: hidden;
@@ -130,6 +133,7 @@ body{
     transform: translateY(-15px);
     display: flex;
     justify-content: center;
+    z-index: 3;
 }
 
 .nav-dropdown::before {
@@ -141,6 +145,7 @@ body{
     height: 10px; /* Invisible hover buffer */
     background: transparent;
     pointer-events: auto; /* Ensures it remains interactive */
+    z-index: 3;
 }
 
 .nav-links>#About:hover ~ #About-dropdown,
