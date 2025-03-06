@@ -11,6 +11,8 @@
         <?php require_once '../css/navbar.css'; ?>
         <?php require_once '../css/homepage.css'; ?>
         <?php require_once '../css/fonts.css'; ?>
+        <?php require_once '../css/linkages.css'; ?>
+
     </style>
 
     <?php # Lateef Fonts ?>
