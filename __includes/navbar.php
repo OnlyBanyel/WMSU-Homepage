@@ -5,8 +5,8 @@
             <div class="logo-text">
                 <div class="nav-logo-line"></div>
                 <div class="nav-title-cont">
-                    <div class="nav-logo-title lateef-extrabold">WESTERN MINDANAO STATE UNIVERSITY</div>
-                    <div class="nav-logo-subtitle montserrat-light">A Smart Research University by 2040</div>
+                    <div class="nav-logo-title inter-bold">WESTERN MINDANAO STATE UNIVERSITY</div>
+                    <div class="nav-logo-subtitle montserrat-regular">A Smart Research University by 2040</div>
                 </div>
             </div>
         </div>
@@ -85,7 +85,11 @@
             </div>
             <a class="inter-extralight" id="Other-Links" href="">OTHER LINKS <img src="../imgs/Expand Arrow.png" alt=""></a>
             <div id="Other-dropdown" class="nav-dropdown">
-                <h6 class="dropdown-title">OTHERS</h6>
+                    <div class="dropdown-title">
+                        <div class="dropdown-content">
+                            <a href="../page/linkages.php">Linkages</a>
+                        </div>
+                    </div>
             </div>
             <div class="MyWmsu-btn">
                 <a class="MyWmsu-link inter-regular" href="">MyWMSU</a>
