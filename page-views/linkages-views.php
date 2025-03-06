@@ -19,7 +19,27 @@
     <div class="linkages-statisticsCont">
         <div class="linkages-statisticsContent">
             <p class="statisticsNumber inter-black">6</p>
+            <p class="statisticsText inter-medium">LOCAL/NATIONAL LINKAGES</p>
+        </div>
+        <div class="statisticsDivider"></div>
+        <div class="linkages-statisticsContent">
+            <p class="statisticsNumber inter-black">22</p>
+            <p class="statisticsText inter-medium">EXTERNAL/INTERNATIONAL LINKAGES</p>
         </div>
     </div>
+</section>
+<section class="Linkages-Gallery">
+    <h1>Skip sa naku ni ang gallery</h1>
+</section>
+<section class="Linkages-Office">
+    <div class="LinkagesContent">
+        <div class="LinkagesContentTitle inter-bold">
+            <p>EXTERNAL LINKAGES AND INTERNATIONAL RELATIONS OFFICE</p>
+        </div>
+        <div class="LinkagesContentText inter-regular">
+            <p>The External Linkages and International Relationos Office (ELIRO) is mandated to establish partnership with agencies, industries, and objectives of the Western Mindanao State University (WMSU) as a “Smart Research University by 2040”. Moreover, the office provides a platform for exploratory discussions on all possible areas of collaboration, tie-up programs, twinning project undertakings, and other linkage arrangements between WMSU and other related agencies at the local, national and international level established through a Memorandum of Understanding and/ or Agreement.</p>
+        </div>
+    </div>
+    <div class="Linkages-OfficeBtn inter-semibold">Learn More ></div>
 </section>
 <!-- Created by Hans Adrian Lao -->
