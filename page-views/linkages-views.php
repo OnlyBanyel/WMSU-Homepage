@@ -42,4 +42,81 @@
     </div>
     <div class="Linkages-OfficeBtn inter-semibold">Learn More ></div>
 </section>
+<section class="Linkages-Partners">
+    <div class="Partners-LeftBox"></div>
+    <div class="Partners-Content">
+        <img class="Partners-WMSULOGO" src="../imgs/WMSU-Logo.png" alt="">
+        <div class="Partners-ContentText">
+            <p class="Partners-Title inter-black">Philippines Based</p>
+            <p class="Partners-SubTitle inter-bold">Institutional Linkages & Partners</p>
+            <div class="Partners-Button">Learn More ></div>
+        </div>
+    </div>
+    <div class="Partners-RightBox"></div>
+</section>
+<section class="Linkages-PartnersList">
+    <div class="Partners-Left">
+        <div class="Linkages-PartnersBox">
+            <p class="PartnersBoxTitle inter-bold">SEAMEO Innotech</p>
+            <p class="PartnersBoxSubText inter-medium">Quezon City, Philippines</p>
+        </div>
+        <div class="Linkages-PartnersBox">
+            <p class="PartnersBoxTitle inter-bold">UMAP-Philippines</p>
+            <p class="PartnersBoxSubText inter-medium">Malate, Manila 1004, Philippines</p>
+        </div>
+        <div class="Linkages-PartnersBox">
+            <p class="PartnersBoxTitle inter-bold">iLAB (CHED)</p>
+            <p class="PartnersBoxSubText inter-medium">Quezon City, Philippines</p>
+        </div>
+    </div>
+    <div class="Partners-Right">
+        <div class="Linkages-PartnersBox">
+            <p class="PartnersBoxTitle inter-bold">Interlliserv Global Resources, Inc.</p>
+            <p class="PartnersBoxSubText inter-medium">Metro Manila, Philippines</p>
+        </div>
+        <div class="Linkages-PartnersBox">
+            <p class="PartnersBoxTitle inter-bold">Department of Science and Technology</p>
+            <p class="PartnersBoxSubText inter-medium">Bicutan, Taguig City, Metro Manila, Philippines</p>
+        </div>
+        <div class="Linkages-PartnersBox">
+            <p class="PartnersBoxTitle inter-bold">Huawei PH</p>
+            <p class="PartnersBoxSubText inter-medium">Taguig City, Metro Manila, Philippines</p>
+        </div>
+    </div>
+</section>
+<section class="Linkages-Globe">
+    <p class="Globe-Title inter-black">International Based</p>
+    <p class="Globe-Text inter-bold">Institutional Linkages & Partners</p>
+    <div class="Globe-List">
+        <div class="Partners-Left">
+        <div class="Linkages-PartnersBox">
+            <p class="PartnersBoxTitle inter-bold">SEAMEO Innotech</p>
+            <p class="PartnersBoxSubText inter-medium">Quezon City, Philippines</p>
+        </div>
+        <div class="Linkages-PartnersBox">
+            <p class="PartnersBoxTitle inter-bold">UMAP-Philippines</p>
+            <p class="PartnersBoxSubText inter-medium">Malate, Manila 1004, Philippines</p>
+        </div>
+        <div class="Linkages-PartnersBox">
+            <p class="PartnersBoxTitle inter-bold">iLAB (CHED)</p>
+            <p class="PartnersBoxSubText inter-medium">Quezon City, Philippines</p>
+        </div>
+        </div>
+        <div class="Partners-Right">
+        <div class="Linkages-PartnersBox">
+            <p class="PartnersBoxTitle inter-bold">Interlliserv Global Resources, Inc.</p>
+            <p class="PartnersBoxSubText inter-medium">Metro Manila, Philippines</p>
+        </div>
+        <div class="Linkages-PartnersBox">
+            <p class="PartnersBoxTitle inter-bold">Department of Science and Technology</p>
+            <p class="PartnersBoxSubText inter-medium">Bicutan, Taguig City, Metro Manila, Philippines</p>
+        </div>
+        <div class="Linkages-PartnersBox">
+            <p class="PartnersBoxTitle inter-bold">Huawei PH</p>
+            <p class="PartnersBoxSubText inter-medium">Taguig City, Metro Manila, Philippines</p>
+        </div>
+    </div>
+</section>
+<section class="Globe-Section">
+</section>
 <!-- Created by Hans Adrian Lao -->
