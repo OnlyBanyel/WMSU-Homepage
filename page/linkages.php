@@ -8,3 +8,6 @@
         <?php require_once '../page-views/linkages-views.php'; ?>
     </div>
 </body>
+<?php
+    require_once '../__includes/footer.php';
+?>

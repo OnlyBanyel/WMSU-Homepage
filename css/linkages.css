@@ -317,4 +317,31 @@
     width: 100vw;
     height: 300px;
     background-color: #570701;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.Globe-Subtext{
+    color: white;
+    font-size: 24px;
+    width: 50%;
+    text-align: center;
+    line-height: 1.1;
+    margin-top: 50px;
+}
+
+.Globe-Btn{
+    background-color: #BD0F03;
+    width: 200px;
+    height: 45px;
+    border: 1px solid black;
+    border-radius: 0 20px 0 20px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
 }

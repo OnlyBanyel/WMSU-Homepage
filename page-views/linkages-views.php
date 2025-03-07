@@ -118,5 +118,7 @@
     </div>
 </section>
 <section class="Globe-Section">
+    <p class="Globe-Subtext">Click the "See More" button to view the full list of WMSU's international partners and linkages.</p>
+    <div class="Globe-Btn">See More ></div>
 </section>
 <!-- Created by Hans Adrian Lao -->
