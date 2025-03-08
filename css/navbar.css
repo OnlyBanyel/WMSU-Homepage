@@ -142,7 +142,7 @@ body{
     height: 10px; /* Invisible hover buffer */
     background: transparent;
     pointer-events: auto; /* Ensures it remains interactive */
-    z-index: 3;
+    z-index: 1;
 }
 
 .nav-links>#About:hover ~ #About-dropdown,
