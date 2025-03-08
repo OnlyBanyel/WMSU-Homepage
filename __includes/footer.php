@@ -21,6 +21,31 @@
             <p class="footer-textLinks inter-light">Administrative Officials</p>
         </div>
     </div>
+    <div class="footer-schoolName">
+        <p class="schoolName-Title inter-extrabold">WESTERN MINDANAO STATE</p>
+        <p class="schoolName-subTitle inter-extrabold">UNIVERSITY</p>
+    </div>
+    <div class="lower-footer">
+        <div class="footer-rights">
+            <p class="footer-rights inter-light">Copyright © 2025 Western Mindanao State University.</p>
+            <p class="footer-rights inter-light">All rights reserved.</p>
+        </div>
+        <img class="footer-logo" src="../imgs/WMSU-Logo.png" alt="">
+        <div class="footer-contacts">
+            <div class="footer-number">
+                <img src="../imgs/famicons_call.png" alt="">
+                <p class="footer-contacts-text inter-light">991-1771</p>
+            </div>
+            <div class="footer-email">
+                <img src="../imgs/ic_outline-email.png" alt="">
+                <p class="footer-contacts-text inter-light">wmsu@wmsu.edu.ph</p>
+            </div>
+            <div class="footer-iso">
+                <img src="../imgs/tabler_world.png" alt="">
+                <p class="footer-contacts-text inter-light">ISO 9001-2015</p>
+            </div>
+        </div>
+    </div>
 </section>
 
 

@@ -1,6 +1,6 @@
 .footer-cont{
     width: 100vw;
-    height: 500px;
+    height: 550px;
     background: linear-gradient(rgba(138, 9, 0, 0.8), rgba(137, 9, 0, 0.8)), url(../imgs/CTE.jpg);
     background-position: center;
     background-size: cover;
@@ -13,7 +13,7 @@
     justify-content: space-evenly;
     align-items: flex-start;
     width: 100%;
-    height: 100%;
+    height: 70%;
     text-align: center;
     padding: 0 120px;
 }
@@ -31,7 +31,69 @@
 
 .footer-divider{
     width: .1px;
-    height: 35%;
+    height: 50%;
     border: .1px solid rgb(201, 201, 201);
     margin-top: 130px;
+}
+
+.footer-schoolName{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -25px;
+}
+
+.schoolName-Title{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 5px;
+}
+
+.schoolName-subTitle{
+    color: white;
+    font-size: 16px;
+    margin-top: -20px;
+}
+
+.lower-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.footer-logo{
+    width: 70px;
+    height: 70px;
+    margin: 0 0 0 145px;
+}
+
+.footer-rights{
+    font-size: 13px;
+    margin-bottom: -4px;
+    color: white;
+}
+
+.footer-contacts{
+    display: flex;
+}
+
+.footer-number, .footer-email, .footer-iso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-email, .footer-iso{
+    margin-left: 35px;
+}
+
+.footer-contacts-text{
+    color: white;
+    font-size: 14px;
+    margin: 0;
+    margin-left: 15px;
 }
