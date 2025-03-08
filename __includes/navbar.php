@@ -64,17 +64,47 @@
                 </div>
             </div>
             <a class="inter-extralight" id="Academic" href="">ACADEMIC <img src="../imgs/Expand Arrow.png" alt=""></a>
-            <div id="Academic-dropdown" class="nav-dropdown">
-            <div class="dropdown-cont">
+            <div id="Academic-dropdown" class="nav-dropdown-1">
+                <div class="dropdown-cont">
                     <div class="dropdown-title">
                         <div class="dropdown-content">
-                            <h6 class="inter-bold">College of Architecture</h6>
-                            <h6 class="inter-bold">College of Agriculture</h6>
-                            <h6 class="inter-bold">College of Asian & Islamic Studies</h6>
+                        <h6 class="inter-bold">College of Architecture</h6>
+                            <h6 class="inter-light">Bachelor of Science in Architecture</h6>
+                        <h6 class="inter-bold">College of Agriculture</h6>
+                            <h6 class="inter-light">Bachelor of Science in Agriculture</h6>
+                            <h6 class="inter-light">Bachelor of Science in Food Technology</h6>
+                            <h6 class="inter-light">Bachelor of Science in Agribusiness</h6>
+                            <h6 class="inter-light">Bachelor of Science in Agricultural Technology</h6>
+                            <h6 class="inter-light">Bachelor of Science in Agronomy</h6>
+                            <h6 class="inter-light">Bachelor of Science in Food Processing and Management</h6>
+                        <h6 class="inter-bold">College of Asian & Islamic Studies</h6>
+                        <h6 class="inter-bold">College of Computing Studies</h6>
+                            <h6 class="inter-light">Bachelor of Science in Computer Science</h6>
+                            <h6 class="inter-light">Bachelor of Science in Information Technology</h6>
+                            <h6 class="inter-light">Associate in Computer Technology</h6>
+                            <h6 class="inter-light">Master in Information Technology</h6>
                         </div>
-                        <div class="nav-divider"></div>
+                        <div class="nav-divider-2"></div>
                         <div class="dropdown-content">
-                            <h6 class="inter-bold">SCHEDULE OF FEES</h6>
+                        <h6 class="inter-bold">College of Criminal Justice Education</h6>
+                        <h6 class="inter-bold">College Of Engineering</h6>
+                            <h6 class="inter-light">Bachelor of Agricultural and Biosystems Engineering</h6>
+                            <h6 class="inter-light">Bachelor of Civil Engineering</h6>
+                            <h6 class="inter-light">Bachelor of Computer Engineering</h6>
+                            <h6 class="inter-light">Bachelor of Electrical Engineering</h6>
+                            <h6 class="inter-light">Bachelor of Environmental Engineering</h6>
+                            <h6 class="inter-light">Bachelor of Geodetic Engineering</h6>
+                            <h6 class="inter-light">Bachelor of Science in Industrial Engineering</h6>
+                            <h6 class="inter-light">Bachelor of Science in Mechanical Engineering</h6>
+                            <h6 class="inter-light">Bachelor of Science in Sanitary Engineering</h6>
+                        <h6 class="inter-bold">College Of Forestry and Environmental Studies</h6>
+                            <h6 class="inter-light">Bachelor of Science in Forestry</h6>
+                            <h6 class="inter-light">Bachelor of Science in Agroforestry</h6>
+                            <h6 class="inter-light">Bachelor of Science in Environmental Science</h6>
+                        </div>
+                        <div class="nav-divider-3"></div>
+                        <div class="dropdown-content">
+                        <h6 class="inter-bold">College of Home Economics</h6>
                         </div>
                     </div>
                 </div>
