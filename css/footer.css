@@ -5,6 +5,9 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-links{
@@ -59,16 +62,21 @@
 
 .lower-footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    width: 100%;
-    margin-top: 10px;
+    width: 90%;
+    margin-top: 30px;
+    position: relative;
 }
 
 .footer-logo{
     width: 70px;
     height: 70px;
-    margin: 0 0 0 145px;
+    position: absolute;
+    left: 0; 
+    right: 0; 
+    margin-inline: auto; 
+    width: fit-content;
 }
 
 .footer-rights{

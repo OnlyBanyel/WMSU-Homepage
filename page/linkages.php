@@ -4,10 +4,10 @@
 
 <body>
     <?php require_once '../__includes/navbar.php'; ?>
-    <div class="homepage-body">
+    <div class="linkages-body">
         <?php require_once '../page-views/linkages-views.php'; ?>
     </div>
-</body>
-<?php
+    <?php
     require_once '../__includes/footer.php';
-?>
+    ?>
+</body>

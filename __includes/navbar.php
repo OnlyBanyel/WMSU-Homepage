@@ -65,7 +65,7 @@
             </div>
             <a class="inter-extralight" id="Academic" href="">ACADEMIC <img src="../imgs/Expand Arrow.png" alt=""></a>
             <div id="Academic-dropdown" class="nav-dropdown">
-            <div class="dropdown-cont">
+                <div class="dropdown-cont">
                     <div class="dropdown-title">
                         <div class="dropdown-content">
                             <h6 class="inter-bold">College of Architecture</h6>
