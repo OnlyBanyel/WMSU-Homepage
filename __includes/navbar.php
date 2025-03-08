@@ -79,6 +79,12 @@
                     </div>
                 </div>
             </div>
+            <a class="inter-extralight" id="Administration" href="">ADMINISTRATION <img src="../imgs/Expand Arrow.png" alt=""></a>
+            <div id="Administration-dropdown" class="nav-dropdown">
+                <div class="dropdown-cont">
+                    <h1>Administration</h1>
+                </div>
+            </div>
             <a class="inter-extralight" id="Research" href="">RESEARCH <img src="../imgs/Expand Arrow.png" alt=""></a>
             <div id="Research-dropdown" class="nav-dropdown">
                 <h6 class="dropdown-title">RESEARCH</h6>
