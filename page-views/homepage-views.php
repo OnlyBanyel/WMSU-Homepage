@@ -1,5 +1,15 @@
-<section class="hero-section">
-    <img src="../imgs/Hero-img.png" alt="" class="hero-img img-fluid">
+<section class="hero-section-cont">
+    <div class="homepage-video-container">
+        <video id="delayedVideo" class="homepage-background-video" muted loop>
+            <source src="../imgs/WMSU profile 2024.mp4" type="video/mp4">
+        </video>
+        <div class="Hero-Title-Cont">
+            <div class="hero-divider"></div>
+            <p class="Hero-Title inter-bold">WESTERN MINDANAO</p>
+            <p class="Hero-Title Lower-Title inter-bold">STATE UNIVERSITY</p>
+            <div class="hero-divider"></div>
+        </div>
+    </div>
 </section>
 
 <section class="line-after-hero"></section>

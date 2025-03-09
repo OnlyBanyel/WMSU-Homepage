@@ -57,3 +57,4 @@
 <script src="https://cdn.datatables.net/2.1.8/js/dataTables.bootstrap5.js"></script>
 <!-- Custom JS -->
 <script src="../js/linkages.js"></script>
+<script src="../js/homepage.js"></script>
