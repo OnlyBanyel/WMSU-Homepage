@@ -4,10 +4,13 @@
             <source src="../imgs/WMSU profile 2024.mp4" type="video/mp4">
         </video>
         <div class="Hero-Title-Cont">
-            <div class="hero-divider"></div>
+            <div class="hero-divider divider-upper"></div>
             <p class="Hero-Title inter-bold">WESTERN MINDANAO</p>
             <p class="Hero-Title Lower-Title inter-bold">STATE UNIVERSITY</p>
-            <div class="hero-divider"></div>
+            <p class="Hero-Subtitle inter-light">Your Future Starts Here: Learn, Innovate, Lead at WMSU!</p>
+            <div class="hero-divider divider-lower"></div>
+            <a class="hero-apply" href=""><div class="hero-button inter-light">APPLY</div></a>
+            <img class="hero-arrowdown" src="../imgs/down-arrow.png" alt="">
         </div>
     </div>
 </section>
