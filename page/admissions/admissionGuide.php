@@ -1,19 +1,25 @@
-<?php require_once "../../__includes/head.php"; ?>
-  <style>
-    <?php require_once '../../css/admissionGuide-style.css'; ?>
-  </style>
+<head>
+  
+  <?php require_once "../../__includes/head.php"; ?>
+    <style>
+      <?php require_once '../../css/admissionGuide-style.css'; ?>
+    </style>
+    <Title>Admission Guide</Title>
+</head>
 
-<script>
-  jQuery(function() {
-    jQuery('.header').load('../../__includes/navbar.php');
-  });
-</script>
 
-<section class="header"></section>
+<section class="header"><?php require_once '../../__includes/navbar.php'?></section>
+
+<nav class="breadcrumb">
+        <a href="#"><span>College Department</span></a> <a href="#"><span>Basic Education Department</span></a> <a href="#"><span>External Studies Unit</span></a> <a href="/WMSU-Website/page/admissions/admission.php" class='curr'><span>Admission</span></a>
+      </nav>
 <div class="intro-admission">
-<h1>Admission Guide</h1>
-<p>The Admission Guide for New Students can be found below, providing all the essential steps, requirements, and procedures for a smooth application process. 
-  Make sure to review each section carefully to ensure you meet the necessary qualifications and deadlines.</p>
+<div class="banner">ADMISSION GUIDE</div>
+<div class="container-instruction">
+  
+  <p>The Admission Guide for New Students can be found below, providing all the essential steps, requirements, and procedures for a smooth application process.
+    Make sure to review each section carefully to ensure you meet the necessary qualifications and deadlines.</p>
+</div>
 </div>
 <main>
 

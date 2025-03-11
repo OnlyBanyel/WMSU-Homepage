@@ -1,22 +1,17 @@
-
-  <?php require_once "../../__includes/head.php"; ?>
-
-
-<script>
-  jQuery(function() {
-    jQuery('.header').load('../../__includes/navbar.php');
-  });
-</script>
+<head>
+    <?php require_once "../../__includes/head.php"; ?>
+    <title>College of Computing Studies</title>
+</head>
 
 <section class="header">
-  <!-- Header -->
+  <?php require_once '../../__includes/navbar.php'?>
 </section>
 
 <main class="main-content">
   <section class="invisible-section">
     <div class="college-top">
       <nav class="breadcrumb">
-        <a href="../../academics.php">Academics</a> &gt; <a href="#">Undergraduates</a> &gt; <span>College of Computing Studies</span>
+        <a href="#" class='curr'><span>College Department</span></a> <a href="#"><span>Basic Education Department</span></a> <a href="#"><span>External Studies Unit</span></a> <a href="/WMSU-Website/page/admissions/admission.php"><span>Admission</span></a>
       </nav>
       <div class="college-heading">
         <img src="../../imgs/ccs-logo-proc.png" class="logo" alt="ccs logo">
