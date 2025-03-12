@@ -17,7 +17,22 @@
 
 <section class="line-after-hero"></section>
 
-<section class="wmsu-news">
+<section class="homepage-news-cont">
+    <div class="homepage-news">
+        <div class="homepage-news-header">
+            <p class="homepage-news-title inter-bold">wmsu news</p>
+            <div class="news-moreArticles">
+                <img src="../imgs/plus.png" alt="">
+                <p class="expand-article inter-medium">more article</p>
+            </div>
+        </div>
+        <div>
+            
+        </div>
+    </div>
+</section>
+
+<!-- <section class="wmsu-news">
     <section class="wmsu-news">
     <div class="section-header">
         <h2 class="footer-Title inter-extrabold">WMSU NEWS</h2>
@@ -53,7 +68,7 @@
         </div>
     </div>
     </section>
-</section>
+</section> -->
 
 <section class="line-page-div"></section>
 
