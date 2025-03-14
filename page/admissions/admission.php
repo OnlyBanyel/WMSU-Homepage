@@ -11,9 +11,7 @@
 
 <body>
         <nav class="container-breadcrumb">
-            <nav class="breadcrumb">
-                <a href="#"><span>College Department</span></a> <a href="#"><span>Basic Education Department</span></a> <a href="#"><span>External Studies Unit</span></a> <a href="/WMSU-Website/page/admissions/admission.php" class="curr"><span>Admission</span></a>
-              </nav>
+          <?php require_once '../../__includes/subnav_academics.php'?>
         </nav>
 
     <div class="main">

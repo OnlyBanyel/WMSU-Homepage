@@ -1,21 +1,20 @@
-<style>
-        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/WMSU-Website/vendor/bootstrap-5.3.3-dist/css/bootstrap.min.css'; ?>
-        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/WMSU-Website/vendor/datatable-2.1.8/datatables.min.css'; ?>
-        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/WMSU-Website/css/navbar.css'; ?>
-        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/WMSU-Website/css/subpages-style.css'; ?>  
-        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/WMSU-Website/css/homepage.css'; ?>
-        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/WMSU-Website/css/fonts.css'; ?>
-        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/WMSU-Website/css/linkages.css'; ?>
-        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/WMSU-Website/css/footer.css'; ?>
+<?php 
+$baseUrl = 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE';
+;
+?>
+
+<link rel="stylesheet" href="<?php echo $baseUrl; ?>/vendor/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="<?php echo $baseUrl; ?>/vendor/datatable-2.1.8/datatables.min.css">
+<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/navbar.css">
+<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/subpages-style.css">
+<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/homepage.css">
+<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/fonts.css">
+<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/linkages.css">
+<link rel="stylesheet" href="<?php echo $baseUrl; ?>/css/footer.css">
 
 
-    </style>
-
-<script>
-        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/WMSU-Website/vendor/jquery-3.7.1/jquery-3.7.1.min.js'; ?>
-        <?php require_once $_SERVER['DOCUMENT_ROOT'] . '/WMSU-Website/vendor/bootstrap-5.3.3-dist/js/bootstrap.min.js'; ?>
-
-</script>
+<script src="<?php echo $baseUrl; ?>/vendor/jquery-3.7.1/jquery-3.7.1.min.js"></script>
+<script src="<?php echo $baseUrl; ?>/vendor/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
     <?php # Lateef Fonts ?>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -13,27 +13,95 @@
 <main class="main-content">
   <section class="invisible-section">
     <div class="college-top">
-      <nav class="breadcrumb">
-        <a href="#" class='curr'><span>College Department</span></a> <a href="#"><span>Basic Education Department</span></a> <a href="#"><span>External Studies Unit</span></a> <a href="/WMSU-Website/page/admissions/admission.php"><span>Admission</span></a>
-      </nav>
+      <br>
+    <?php require_once '../../__includes/subnav_academics.php'?>
+<div class="content-container">
+  
+      <div class="content">
+  
+          <div class="col-1">
+                    <a href="CCS.php"><div class="college-container">
+              <img src="../../imgs/ccs-logo-proc.png" class="logo-item" alt="ccs logo">
+              <h2>College of Computing Studies</h2>
+                    </div></a>
+                    <a href="#"><div class="college-container alt-color">
+              <img src="../../imgs/CA-proc.png" class="logo-item" alt="ccs logo">
+              <h2>College of Architecture</h2>
+                    </div></a>
+                    <a href="#"><div class="college-container">
+              <img src="../../imgs/CSM-proc.png" class="logo-item" alt="ccs logo">
+              <h2>College of Science and Mathematics</h2>
+                    </div></a>
 
-    <div class="content">
+                    <a href="#"><div class="college-container alt-color">
+              <img src="../../imgs/cl-proc.png" class="logo-item" alt="ccs logo">
+              <h2>College of Law</h2>
+                    </div></a>
+                    <a href="#"><div class="college-container">
+              <img src="../../imgs/ccje-proc.png" class="logo-item" alt="ccs logo">
+              <h2>College of Criminal Justice Education</h2>
+                    </div></a>
 
-        <div class="col-1">
-                  <div class="college-container">
-            <img src="../../imgs/ccs-logo-proc.png" class="logo-item" alt="ccs logo">
-            <h2>College of Computing Studies</h2>
-                  </div>
-        
-        </div>
 
-        <div class="col-2">
-                  <div class="college-container">
-            <img src="../../imgs/CN.png" class="logo-item" alt="ccs logo">
-            <h2>College of Nursing</h2>
-                  </div>
-                </div>
-        </div>
+                   
+  
+          </div>
+  
+          <div class="col-2">
+
+                    <a href="#"><div class="college-container alt-color">
+              <img src="../../imgs/cet-proc.png" class="logo-item" alt="ccs logo">
+              <h2>College of Engineering and Technology</h2>
+                    </div></a>
+
+                    <a href="#"><div class="college-container">
+              <img src="../../imgs/cpads-proc.png" class="logo-item" alt="ccs logo">
+              <h2>College of Public Administration and Development Studies</h2>
+                    </div></a>
+
+                    <a href="#"><div class="college-container alt-color">
+              <img src="../../imgs/cswcd-proc.png" class="logo-item" alt="ccs logo">
+              <h2>College of Social Work and Community Development</h2>
+                    </div></a>
+
+                    <a href="#"><div class="college-container">
+              <img src="../../imgs/CN.png" class="logo-item" alt="ccs logo">
+              <h2>College of Nursing</h2>
+                    </div></a>
+
+                    <a href="#"><div class="college-container alt-color">
+              <img src="../../imgs/cte-proc.png" class="logo-item" alt="ccs logo">
+              <h2>College of Teacher Education</h2>
+                    </div></a>
+
+          </div>
+
+          <div class="col-3">
+            
+                <a href="#"><div class="college-container">
+                          <img src="../../imgs/cais-proc.png" class="logo-item" alt="ccs logo">
+                          <h2>College of Asian and Islamic Studies</h2>
+                </div></a>
+                <a href="#"><div class="college-container alt-color">
+                          <img src="../../imgs/cfes-proc.png" class="logo-item" alt="ccs logo">
+                          <h2>College of Forestry and Environmental Studies</h2>
+                </div></a>
+                <a href="#"><div class="college-container">
+                          <img src="../../imgs/che-proc.png" class="logo-item" alt="ccs logo">
+                          <h2>College of Home Economics</h2>
+                </div></a>
+                <a href="#"><div class="college-container alt-color">
+                          <img src="../../imgs/cm-proc.png" class="logo-item" alt="ccs logo">
+                          <h2>College of Medicine</h2>
+                </div></a>
+                <a href="#"><div class="college-container">
+                          <img src="../../imgs/ccspe-proc.png" class="logo-item" alt="ccs logo">
+                          <h2>College of Sports Science and Physical Education</h2>
+                </div></a>
+          </div>
+
+      </div>
+</div>
 
 
 

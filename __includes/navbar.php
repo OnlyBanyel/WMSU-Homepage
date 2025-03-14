@@ -4,7 +4,7 @@
 <nav>
     <section class="nav-cont">
         <div class="WMSU-Logo-cont">
-            <img src="/WMSU-Website/imgs/WMSU-Logo.png" alt="" class="WMSU-Logo">
+            <img src="/WMSU-HOMEPAGE/imgs/WMSU-Logo.png" alt="" class="WMSU-Logo">
             <div class="logo-text">
                 <div class="nav-logo-line"></div>
                 <div class="nav-title-cont">
@@ -76,26 +76,26 @@
                             <div class="two-columns">
                             
                                 <div class="dropdown-col-1">
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/law.php'; ?>">College of Law</a></p>
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/agriculture.php'; ?>">College of Agriculture</a></p>
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/architecture.php'; ?>">College of Architecture</a></p>
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/liberalArts.php'; ?>">College of Liberal Arts</a></p>
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/nursing.php'; ?>">College of Nursing</a></p>
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/asianAndIslamic.php'; ?>">College of Asian and Islamic Studies</a></p>
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/CSM.php'; ?>">College of Science and Mathematics</a></p>
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/CCS.php'; ?>">College of Computing Studies</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/law.php'; ?>">College of Law</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/agriculture.php'; ?>">College of Agriculture</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/architecture.php'; ?>">College of Architecture</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/liberalArts.php'; ?>">College of Liberal Arts</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/nursing.php'; ?>">College of Nursing</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/asianAndIslamic.php'; ?>">College of Asian and Islamic Studies</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/CSM.php'; ?>">College of Science and Mathematics</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/CCS.php'; ?>">College of Computing Studies</a></p>
                                 </div>
                                 <div class="dropdown-col-2">
                             
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/forestryAndEnvironmental.php'; ?>">College of Forestry and Environmental Studies</a></p>
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/crim.php'; ?>">College of Criminal Justice Education</a></p>
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/homeEcon.php'; ?>">College of Home Economics</a></p>
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/engineering.php'; ?>">College of Engineering</a></p>
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/medicine.php'; ?>">College of Medicine</a></p>
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/publicAdmin.php'; ?>">College of Public Administration and Development Studies</a></p>
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/sportsScience.php'; ?>">College of Sports Science and Physical Education</a></p>
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/socialWork.php'; ?>">College of Social Work and Community Development</a></p>
-                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/academics/teachingEd.php'; ?>">College of Teaching Education</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/forestryAndEnvironmental.php'; ?>">College of Forestry and Environmental Studies</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/crim.php'; ?>">College of Criminal Justice Education</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/homeEcon.php'; ?>">College of Home Economics</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/engineering.php'; ?>">College of Engineering</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/medicine.php'; ?>">College of Medicine</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/publicAdmin.php'; ?>">College of Public Administration and Development Studies</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/sportsScience.php'; ?>">College of Sports Science and Physical Education</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/socialWork.php'; ?>">College of Social Work and Community Development</a></p>
+                                    <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/academics/teachingEd.php'; ?>">College of Teaching Education</a></p>
                                 </div>
                             </div>
 
@@ -133,8 +133,8 @@
                         <div class="nav-divider"></div>
                         <div class="dropdown-content">
                             <h6 class="inter-bold">ADMISSIONS</h6>
-                            <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/admissions/admissionGuide.php'; ?>">Admission Guide</a></p>
-                            <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-Website/page/admissions/enrollmentProced.php'; ?>">Enrollment Procedure</a></p>
+                            <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/admissions/admissionGuide.php'; ?>">Admission Guide</a></p>
+                            <p class="inter-light"><a href="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . '/WMSU-HOMEPAGE/page/admissions/enrollmentProced.php'; ?>">Enrollment Procedure</a></p>
                         </div>
 
                     </div>

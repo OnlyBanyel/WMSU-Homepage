@@ -10,29 +10,29 @@
 <main class="main-content">
   <section class="invisible-section">
     <div class="college-top">
-      <nav class="breadcrumb">
-        <a href="#" class='curr'><span>College Department</span></a> <a href="#"><span>Basic Education Department</span></a> <a href="#"><span>External Studies Unit</span></a> <a href="/WMSU-Website/page/admissions/admission.php"><span>Admission</span></a>
-      </nav>
-      <div class="college-heading">
-        <img src="../../imgs/ccs-logo-proc.png" class="logo" alt="ccs logo">
-        <h2 class="college-header">College of Computing Studies</h2>
-      </div>
-
-      <div class="carousel-container">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval='1500'>
-              <img src="../../imgs/ccs1.jpg" class="d-block w-100" alt="...">
+    <?php require_once '../../__includes/subnav_academics.php'?>
+    <div class="hero-container">
+      
+        <div class="college-heading">
+          <img src="../../imgs/ccs-logo-proc.png" class="logo" alt="ccs logo">
+          <h2 class="college-header">College of Computing Studies</h2>
+        </div>
+        <div class="carousel-container">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval='1500'>
+                <img src="../../imgs/ccs1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval='1500'>
+                <img src="../../imgs/ccs2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item" data-bs-interval='1500'>
+                <img src="../../imgs/ccs3.jpg" class="d-block w-100" alt="...">
+              </div>
             </div>
-            <div class="carousel-item" data-bs-interval='1500'>
-              <img src="../../imgs/ccs2.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item" data-bs-interval='1500'>
-              <img src="../../imgs/ccs3.jpg" class="d-block w-100" alt="...">
-            </div>
-          </div>
-        </div> <!-- End of carousel -->
-      </div>
+          </div> <!-- End of carousel -->
+        </div>
+    </div>
 
       <div class="flex-container">
         <div class="card-container">
@@ -78,6 +78,9 @@
 
     </div> <!-- End of college-top -->
 
+    <div class="activities">
+      <p>HERE LIES THE ACTIVITIES OF THE COLLEGES</p>
+    </div>
   <div class="container mt-4">
     <!-- Undergraduate Courses Label -->
     <h3 class="mb-3">Undergraduate Programs</h3>

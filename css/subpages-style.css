@@ -40,7 +40,7 @@ html, body {
   margin-left: -10px;
 }
 
-.college-heading {
+/* .college-heading {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -51,6 +51,29 @@ html, body {
   gap: 30px;
   margin-left: 20px;
   z-index: 2;
+} */
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.college-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding-top: 20px; /* Adjust for spacing */
+  z-index: 2;
+  text-align: center;
+  height: 100%;
 }
 
 .invisible-section {
@@ -118,9 +141,9 @@ html, body {
 }
 
 .carousel img {
-  height: 100%;
+  height: 1080px;
+  width: 1920px;
   filter: blur(5px);
-  object-fit: cover;
 }
 
 .entry-content-wrapper {
@@ -151,7 +174,7 @@ html, body {
 
 .college-goals li {
   margin-top: 10px;
-  font-size: 24px;
+  font-size: 18px;
   color: #e0e0e0;
 }
 
@@ -244,8 +267,8 @@ html, body {
 }
 
 .card {
-  width: 600px; /* Increase width by 40% */
-  height: 800px; /* Further increase height */
+  width: 450px; /* Increase width by 40% */
+  height: 600px; /* Further increase height */
   border: 1px solid #b22222; /* Change border color to red */
   position: relative;
   transform-style: preserve-3d;
@@ -275,15 +298,15 @@ html, body {
 }
 
 .card-1 {
-  background: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../../imgs/ccs1.jpg'); /* Red background with 40% opacity image */
+  background: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../imgs/ccs1.jpg'); /* Red background with 40% opacity image */
 }
 
 .card-2 {
-  background: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../../imgs/ccs2.jpg'); /* Red background with 40% opacity image */
+  background: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../imgs/ccs2.jpg'); /* Red background with 40% opacity image */
 }
 
 .card-3 {
-  background: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../../imgs/ccs3.jpg'); /* Red background with 40% opacity image */
+  background: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../imgs/ccs3.jpg'); /* Red background with 40% opacity image */
 }
 
 .card-back {
@@ -305,7 +328,7 @@ html, body {
 }
 
 .college-goals p {
-  font-size: 26px;
+  font-size: 22px;
   font-family: "Inter";
   color: #fff; /* Change text color to white */
   text-align: center;
