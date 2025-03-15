@@ -37,7 +37,7 @@
       <div class="flex-container">
         <div class="card-container">
           <div class="card">
-            <div class="card-front card-1">
+            <div class="card-front card-1" style="background-image: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../../imgs/ccs1.jpg'); background-size: cover; background-position: center;">
               <h3>College Goals</h3>
             </div>
             <div class="card-back">
@@ -56,7 +56,7 @@
         </div>
         <div class="card-container">
           <div class="card">
-            <div class="card-front card-2">
+            <div class="card-front card-2" style="background: url('../../imgs/ccs2.jpg'); background-color: rgba(255, 0, 0, 0.6); background-blend-mode: overlay;">
               <h3>College Mission</h3>
             </div>
             <div class="card-back">
@@ -66,7 +66,7 @@
         </div>
         <div class="card-container">
           <div class="card">
-            <div class="card-front card-3">
+            <div class="card-front card-3" style="background-image: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../../imgs/ccs3.jpg'); background-size: cover; background-position: center;">
               <h3>College Vision</h3>
             </div>
             <div class="card-back">

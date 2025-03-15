@@ -19,6 +19,8 @@ html, body {
 
 .carousel {
   z-index: -0.5;
+  max-width: 100%;
+  width: 100vw;
 }
 
 .carousel-inner {
@@ -27,6 +29,8 @@ html, body {
 
 .carousel-item {
   height: 100%;
+  width: 100%;
+  max-width: 100%;
 }
 
 .logo {
@@ -90,7 +94,8 @@ html, body {
   font-size: 14px; /* Adjust font size */
   color: #000; /* Change font color */
   gap: 20px;
-  margin-left: 20px;
+  margin-left: 40px;
+  height: 10%;
 }
 
 .breadcrumb a {
@@ -98,7 +103,7 @@ html, body {
   text-decoration: none; /* Remove underline */
   background-color: #BD0F03;
   transform: skew(20deg);
-  padding: 5px 40px;
+  padding: 10px;
   border: 1px solid #BD0F03;
 }
 
@@ -142,7 +147,8 @@ html, body {
 
 .carousel img {
   height: 1080px;
-  width: 1920px;
+  width: 100%;
+  max-width: 100vw;
   filter: blur(5px);
 }
 
@@ -295,18 +301,6 @@ html, body {
 .card-front {
   background-size: cover;
   background-position: center;
-}
-
-.card-1 {
-  background: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../imgs/ccs1.jpg'); /* Red background with 40% opacity image */
-}
-
-.card-2 {
-  background: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../imgs/ccs2.jpg'); /* Red background with 40% opacity image */
-}
-
-.card-3 {
-  background: linear-gradient(rgba(255, 152, 152, 0.6), rgba(255, 0, 0, 0.6)), url('../imgs/ccs3.jpg'); /* Red background with 40% opacity image */
 }
 
 .card-back {

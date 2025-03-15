@@ -64,8 +64,8 @@
               <h2>College of Social Work and Community Development</h2>
                     </div></a>
 
-                    <a href="#"><div class="college-container">
-              <img src="../../imgs/CN.png" class="logo-item" alt="ccs logo">
+                    <a href="CN.php"><div class="college-container">
+              <img src="../../imgs/cn-proc.png" class="logo-item" alt="ccs logo">
               <h2>College of Nursing</h2>
                     </div></a>
 
