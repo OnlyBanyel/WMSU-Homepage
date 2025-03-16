@@ -29,16 +29,8 @@
     </div>
 </section>
 <section class="Linkages-Gallery">
-    <div class="Linkages-GalleryCont">
-        <div class="Linkages-HoverableImage">
-            <img class="Linkages-ImagesCarousel" src="../imgs/Admin-Office1.jpg" alt="">
-            <img class="Linkages-ImagesCarousel" src="../imgs/Admin-Office2.jpg" alt="">
-            <img class="Linkages-ImagesCarousel" src="../imgs/Ribbon-Cut.jpg" alt="">
-            <img class="Linkages-ImagesCarousel" src="../imgs/Admin.jpg" alt="">
-        </div>
-    </div>
+    <h1>Skip sa naku ni ang gallery</h1>
 </section>
-
 <section class="Linkages-Office">
     <div class="LinkagesContent">
         <div class="LinkagesContentTitle inter-bold">
@@ -51,17 +43,15 @@
     <div class="Linkages-OfficeBtn inter-semibold">Learn More ></div>
 </section>
 <section class="Linkages-Partners">
-    <div class="Partners-LeftBox">
+    <div class="Partners-LeftBox"></div>
+    <div class="Partners-Content">
         <img class="Partners-WMSULOGO" src="../imgs/WMSU-Logo.png" alt="">
-        <div class="Partners-Content">
-            <div class="Partners-ContentText">
-                <p class="Partners-Title inter-black">Philippines Based</p>
-                <p class="Partners-SubTitle inter-bold">Institutional Linkages & Partners</p>
-                <div class="Partners-Button">Learn More ></div>
-            </div>
+        <div class="Partners-ContentText">
+            <p class="Partners-Title inter-black">Philippines Based</p>
+            <p class="Partners-SubTitle inter-bold">Institutional Linkages & Partners</p>
+            <div class="Partners-Button">Learn More ></div>
         </div>
     </div>
-
     <div class="Partners-RightBox"></div>
 </section>
 <section class="Linkages-PartnersList">

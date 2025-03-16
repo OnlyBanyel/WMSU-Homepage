@@ -10,17 +10,12 @@ body {
     overflow-x: hidden; /* Stops side scrolling */
 }
 
-nav{
-    width: 100vw;
-    height: 100px;
-}
-
 .nav-cont {
     display: flex;
     justify-content: space-between;
     background-color: white;
     width: 100%;
-    height: 100%;
+    height: 100px;
 }
 
 .WMSU-Logo-cont {
@@ -168,13 +163,6 @@ nav{
 
 .nav-links > #Academic:hover ~ #Academic-dropdown,
 #Academic-dropdown:hover {
-    visibility: visible;
-    opacity: .75;
-    transform: translateY(0);
-}
-
-.nav-links>#Administration:hover ~ #Administration-dropdown,
-#Administration-dropdown:hover {
     visibility: visible;
     opacity: .75;
     transform: translateY(0);
