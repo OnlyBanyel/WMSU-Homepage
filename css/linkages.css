@@ -91,6 +91,50 @@
     border: 5px solid white;
 }
 
+.Linkages-Gallery {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Linkages-GalleryCont {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.Linkages-HoverableImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: max-content;
+    animation: scroll 25s linear infinite;
+}
+
+.Linkages-ImagesCarousel {
+    width: 440px;
+    height: 290px;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+.Linkages-ImagesCarousel:hover {
+    width: 600px;
+    height: 400px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3); 
+}
+
+/* Infinite scrolling effect */
+@keyframes scroll {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Moves only half so that duplicate images fill the gap */
+}
+
 .Linkages-Office{
     width: 100vw;
     height: 450px;
@@ -151,6 +195,7 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 140px;
+    position: relative;
 }
 
 .Partners-LeftBox{
@@ -163,31 +208,34 @@
     background-repeat: no-repeat;
     border-radius: 0 60px 60px 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .Partners-WMSULOGO{
     width: 250px;
     height: 250px;
     position: absolute;
-    right: 98%; /* Adjust overlap */
+    left: 70%; /* Distance from the edge */
     top: 50%;
-    transform: translateY(-50%);
-    z-index: 10; /* Ensure it's above other elements */
+    transform: translateY(-50%); /* Centers vertically */
 }
 
 .Partners-Content{
     display: flex;
     align-items: center;
     position: relative;
-}
-
-.Partners-ContentText{
-    margin-left: 80px;
+    position: absolute;
+    left: 150%; /* Distance from the edge */
+    top: 50%;
+    transform: translateY(-50%); /* Centers vertically */
 }
 
 .Partners-Title{
     color: #BD0F03;
     font-size: 75px;
+    width: 800px;
 }
 
 .Partners-SubTitle{
